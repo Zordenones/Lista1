@@ -1,6 +1,6 @@
 #EXERCICIO 3
-#Salario = float(input("Qual o seu salario? "))
-#SalarioMin = float(1320.00)
+Salario = float(input("Qual o seu salario? "))
+SalarioMin = float(1320.00)
 
-#QNTSalários = Salario / SalarioMin
-#print("Voce recebe:", QNTSalários)
+QNTSalários = Salario / SalarioMin
+print("Voce recebe:", QNTSalários)
