@@ -1,0 +1,6 @@
+#EXERCICIO 4
+Diametro = int(input("Insira o diameatro:"))
+Raio = Diametro / 2
+PI = 3.141592653
+Circunferencia = Raio**2*PI
+print(Circunferencia)
