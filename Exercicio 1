@@ -1,0 +1,6 @@
+Número = int(input("Digite um número inteiro: "))
+NúmeroAnt = Número - 1
+NúmeroSuc = Número + 1
+
+print(f"O número antecessor do seu é {NúmeroAnt}")
+print(f"O número sucessor do seu é {NúmeroSuc}")
