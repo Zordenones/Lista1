@@ -1,7 +1,0 @@
-#EXERCICIO 2
-#import datetime
-#Hoje = datetime.date.today()
-#AnoAtual = Hoje.year
-#AnoDeNascimento = int(input("qual o ano de nascimento? "))
-#idade = AnoAtual - AnoDeNascimento
-#print("Vc fez:", idade)
