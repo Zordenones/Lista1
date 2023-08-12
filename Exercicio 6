@@ -1,0 +1,6 @@
+CatetoA = int(input("insira o cateto A: "))
+CatetoB = int(input("insira o cateto B: "))
+
+hipotenusa = CatetoA**2 + CatetoB**2
+raiz = float(hipotenusa) ** 0.5
+print(hipotenusa)
