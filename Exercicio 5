@@ -1,1 +1,13 @@
+boné = 60.50
+Desconto3X = boné * 1.05
+Desconto2X = boné
+DescontoAvista = boné * 0.05
 
+print("Temos Boné por 60.50R$!")
+print("=======================")
+input("Deseja comprar o boné? ")
+print("=======================")
+print(f"Boné A vista sai {boné-DescontoAvista:,.2f}R$")
+print(f"Boné em 2X sai pro {Desconto2X:,.2f}R$")
+print(f"Boné em 3x com 5% de acrécimo {Desconto3X:,.2f}R$")
+print("=======================")
