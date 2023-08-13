@@ -1,0 +1,7 @@
+HoraUsuario = int(input("Diga um hora: "))
+MinUsuario = int(input("Diga um Minuto: "))
+SecUsuario = int(input("Diga um Segundos: "))
+Horaspassadas = HoraUsuario
+MinutosPassados = (Horaspassadas*60)+MinUsuario
+SegundosPassados = (MinutosPassados*60)+SecUsuario
+print(f"passou {MinutosPassados} Minuto e {SegundosPassados} segundos!")
